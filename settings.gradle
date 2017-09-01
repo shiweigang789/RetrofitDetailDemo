@@ -1,0 +1,2 @@
+rootProject.name = 'RetrofitDetailDemo'
+include ':server', ':client'
