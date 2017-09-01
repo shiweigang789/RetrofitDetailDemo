@@ -41,7 +41,7 @@ public class DB {
         File dbFile = new File("Data/data.db");
         ConnectionSource source = null;
         try {
-            source = DB.getConnectionSource();
+            source = getConnectionSource();
             if (!dbFile.exists()) {
                 File parentFile = dbFile.getParentFile();
                 if (!parentFile.exists()) {
